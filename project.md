@@ -8,7 +8,18 @@
     <h1>Project Overview</h1>
     <section>
         <h2>Scope</h2>
-        <p>The project currently involves multiple core components including pages, layouts, UI elements, and routing. Specifically, updates span <strong>9 changed files</strong> touching distinct areas of the source code and UI.</p>
+        <p>The project currently involves multiple core components including pages, layouts, UI elements, and routing. Specifically, updates span <strong>9 changed files</strong> covering critical areas of the source code and UI:</p>
+        <ul>
+            <li>src/pages/home.tsx</li>
+            <li>src/components/layout/AppLayout.tsx</li>
+            <li>src/components/layout/Footer.tsx</li>
+            <li>src/components/layout/Header.tsx</li>
+            <li>src/components/layout/Navbar.tsx</li>
+            <li>src/components/ui/navigation-menu.tsx</li>
+            <li>src/components/ui/sidebar.tsx</li>
+            <li>src/main.tsx</li>
+            <li>src/app/routes.tsx</li>
+        </ul>
     </section>
     <section>
         <h2>Goals</h2>
@@ -32,15 +43,15 @@
         <ul>
             <li>Successful update of the following files with corresponding deterministic patch commits:
                 <ul>
-                    <li>src/pages/home.tsx</li>
-                    <li>src/components/layout/AppLayout.tsx</li>
-                    <li>src/components/layout/Footer.tsx</li>
-                    <li>src/components/layout/Header.tsx</li>
-                    <li>src/components/layout/Navbar.tsx</li>
-                    <li>src/components/ui/navigation-menu.tsx</li>
-                    <li>src/components/ui/sidebar.tsx</li>
-                    <li>src/main.tsx</li>
-                    <li>src/app/routes.tsx</li>
+                    <li>src/pages/home.tsx (replaced - chore: deterministic bootstrap step 1/1)</li>
+                    <li>src/components/layout/AppLayout.tsx (updated - chore: deterministic patch step 1/1)</li>
+                    <li>src/components/layout/Footer.tsx (updated - chore: deterministic patch step 1/1)</li>
+                    <li>src/components/layout/Header.tsx (updated - chore: deterministic patch step 1/1)</li>
+                    <li>src/components/layout/Navbar.tsx (updated - chore: deterministic patch step 1/1)</li>
+                    <li>src/components/ui/navigation-menu.tsx (updated - chore: deterministic patch step 1/1)</li>
+                    <li>src/components/ui/sidebar.tsx (updated - chore: deterministic patch step 1/1)</li>
+                    <li>src/main.tsx (updated - chore: deterministic patch step 1/1)</li>
+                    <li>src/app/routes.tsx (updated - chore: deterministic patch step 1/1)</li>
                 </ul>
             </li>
             <li>All components operate without regression issues and demonstrate improved code stability.</li>
